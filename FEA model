@@ -6,19 +6,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 
-# Hardcoded service account key JSON
+# Hardcoded service account key JSON // edited out for privacy reasons
 service_account_key = {
-    "type": "service_account",
-    "project_id": "fyp-login-regis",
-    "private_key_id": "a4d5ce3d6e6cac825d5712bf203c4c804ab4db0c",
-    "private_key": "-----BEGIN PRIVATE KEY-----\n....\n-----END PRIVATE KEY-----\n",// private key is edited out for privacy reason
-    "client_email": "firebase-adminsdk-lt3ps@fyp-login-regis.iam.gserviceaccount.com",
-    "client_id": "103546225454042492817",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-lt3ps%40fyp-login-regis.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
+    .........
 }
 
 # Initialize Firebase Admin SDK with the uploaded JSON key file
