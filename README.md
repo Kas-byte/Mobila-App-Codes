@@ -1,6 +1,7 @@
 Facial Expression Analysis Mobile App
 
 Project Overview
+
 This project is a mobile application that performs facial expression analysis and provides feedback to users. The app is built using Java for Android development and is focused on three main features:
 
 User Authentication: Using Firebase Authentication to register and log in users.
