@@ -14,6 +14,10 @@ Android Camera API for capturing images
 Files Included
 This repository includes Java code for the following features of the mobile app:
 
-Login and Registration (LoginActivity.java, RegisterActivity.java)
-Image Capture and Display (CameraActivity.java, ImageActivity.java)
-Emotion Analysis (EmotionAnalysisActivity.java)
+Login and Registration (1MainActivity.java)
+Image Capture and Display (1Photo.java)
+Training Details (1Training.java)
+Emotion Analysis (FEA model.ipynb,FEA training model.ipynb)
+
+License
+This project is licensed under the Apache 2.0 License.
